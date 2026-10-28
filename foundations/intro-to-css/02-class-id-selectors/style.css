@@ -1,1 +1,5 @@
-/* Add CSS Styling */
+.class{
+  background-color:pink;
+  font-family: Verdana, sans-serif;
+  width: 800px;
+}
