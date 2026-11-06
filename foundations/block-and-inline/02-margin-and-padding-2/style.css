@@ -17,6 +17,10 @@ body {
   padding: 10px;
 }
 
+.button-container{
+  margin-top:10px;
+}
+
 button {
   background: white;
 }
