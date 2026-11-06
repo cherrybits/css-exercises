@@ -19,9 +19,8 @@ body {
 
 .button-container{
   margin-top:10px;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
+ 
 }
 
 h1{
@@ -32,4 +31,5 @@ button {
   background: white;
   padding: 10px;
   display: block;
+  margin: 0 auto;
 }
