@@ -2,7 +2,6 @@
 
 body {
   height: 100vh;
-  margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
 }
@@ -27,4 +26,26 @@ input {
 
 li{
   list-style-type: none;
+}
+
+ul{
+  display: flex;
+}
+
+a{
+  color :grey;
+  text-decoration: none;
+}
+
+.left-links, .right-links{
+  gap: 16px;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer{
+  background-color: seashell;
 }
