@@ -9,7 +9,15 @@ body {
 .header {
   height: 72px;
   background: darkmagenta;
+  display: flex;
+}
+
+.header-text{
   color: white;
+  font-size: 32px;
+  font-weight: 900;
+  margin: 16px;
+  align-self: center;
 }
 
 .footer {
@@ -32,4 +40,5 @@ body {
 
 .content{
   display: flex;
+  flex: 1;
 }
