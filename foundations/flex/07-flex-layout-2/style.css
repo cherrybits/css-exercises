@@ -23,7 +23,13 @@ body {
 .footer {
   height: 72px;
   background: #eee;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-text{
   color: darkmagenta;
+  align-self: center;
 }
 
 .sidebar {
