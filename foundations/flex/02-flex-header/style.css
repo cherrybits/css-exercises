@@ -2,7 +2,7 @@
   font-family: monospace;
   background: papayawhip;
   display : flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 8px;
   margin: 8px;
@@ -23,6 +23,8 @@ ul {
   display: flex;
   align-items: center;
   gap: 8px;
+  margin: 0;
+  padding: 0;
 }
 
 a {
