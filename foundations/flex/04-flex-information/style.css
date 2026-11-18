@@ -25,6 +25,15 @@ img {
   display: flex;
 }
 
+.barberry, .chilli, .pepper, .saffron{
+  display: flex;
+  flex-direction: column;
+}
+
+.items, img{
+  align-self: center;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
