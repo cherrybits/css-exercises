@@ -18,6 +18,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding : 8px;
 }
 
 input {
@@ -51,4 +52,19 @@ a{
 
 .footer{
   background-color: seashell;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+}
+
+.content, .input, .buttons{
+  align-self: center;
 }
