@@ -25,14 +25,11 @@ a{
   height: 72px;
   background: darkmagenta;
   display: flex;
-}
-
-.header-text{
   color: white;
   font-size: 32px;
   font-weight: 900;
-  margin: 16px;
-  align-self: center;
+  padding: 0 16px;
+  align-items: center;
 }
 
 .footer {
@@ -40,11 +37,8 @@ a{
   background: #eee;
   display: flex;
   justify-content: center;
-}
-
-.footer-text{
   color: darkmagenta;
-  align-self: center;
+  align-items: center;
 }
 
 .sidebar {
@@ -60,13 +54,14 @@ a{
 .cards-container{
   display:flex;
   flex-wrap: wrap;
+  gap: 32px;
+  padding: 48px;
 }
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  padding: 48px;
-  margin: 48px;
+  padding: 16px;
   width: 300px;
 }
 
