@@ -6,7 +6,7 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+ 
 }
 
 img {
@@ -57,14 +57,13 @@ a{
 .content{
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 16px;
+  flex: 1;
 }
 
 .buttons{
   display: flex;
   justify-content: center;
-}
-
-.content, .input, .buttons{
-  align-self: center;
 }
