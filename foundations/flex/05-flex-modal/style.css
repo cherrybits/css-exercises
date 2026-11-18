@@ -58,6 +58,16 @@ body {
   margin: 8px;
 }
 
+.header-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header{
+  font-weight: bold;
+  font-size: 18px;
+}
+
 button {
   cursor: pointer;
   padding: 8px 16px;
