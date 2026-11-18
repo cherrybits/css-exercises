@@ -31,6 +31,16 @@ body {
   font-style: italic;
 }
 
+.left-items{
+  flex: 1;
+  display: flex;
+}
+
+.right-items{
+  flex: 1;
+  display : flex;
+}
+
 button {
   border: none;
   border-radius: 8px;
