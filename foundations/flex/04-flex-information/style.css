@@ -19,6 +19,12 @@ img {
   flex-direction: column;
 }
 
+.items{
+  align-self: center;
+  gap: 52px;
+  display: flex;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
